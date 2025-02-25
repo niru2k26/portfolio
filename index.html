@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Niranjan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Niranjan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About"onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience"onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact"onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/n assets/image (1).png" alt="Niranjan profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Niranjan</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/n assets/RESUME-1.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/n assets/linkedin.png" alt="My Linkedin Profile" class="icon"onclick="location.href='https://www.linkedin.com/in/mettu-niranjan-1aa048267?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnKMeGVSbRQqCxBI8hLCY7Q%3D%3D'" >
+                <img src="./assets/n assets/github.png" alt="My Github Profile" class="icon"onclick="location.href='https://github.com/niru2k26/Work-.git'">
+        </div>
+    </section>
+    <section id="About">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/n assets/about pic.png" alt="profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-containers">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/n assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>1 year <br/>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/n assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Intermediate In 'MPC' <br/>B-tech In 'CSE'</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm a Third-year Computer Science student at Aurora Scientific and Technological Institute, skilled in Python, Java, HTML, CSS, and JavaScript. 
+                        I’ve worked on web and game development projects and data analysis with Pandas. 
+                        An active Computer Science Club member, I volunteer for tech events and enjoy tech blogs, new languages, and coding challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/n assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+    </section>
+    <section id="Experience">
+        <P class="section__text__p1">Explore My</P>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>React.Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JQuery</h3>
+                                <p>Intermediate</p>
+                          </div>
+                        </article>
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Typescript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Node Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </article>
+                        <article>
+                            <img src="./assets/n assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/n assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Projects'">
+    </section>
+    <section id="Projects">
+        <P class="section__text__p1">Browse My Recent</P>
+        <h1 class="title">Projects </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/n assets/project-1.png" alt="Project-1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project one</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                       Live Demo                   </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/n assets/project-2.png" alt="Project-2" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                       Live Demo                   </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/n assets/project-3.png" alt="project-3" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                       Live Demo                   </button>
+                </div>
+            </div></div>
+        </div>
+        <img src="./assets/n assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Contact'">
+    </section>
+    <section id="Contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/n assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:Example@gmail.com">mettuniranjan1@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/n assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>  
+            </div>
+        </nav>
+        <P>Copyright &#169; 2024 Mettu Niranjan All Rights Reserved</P>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
